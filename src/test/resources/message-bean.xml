@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="yandexPage" class="com.bhge.project.pageObjects.YandexPage">
+    </bean>
+
+    <bean id="yandexMarketPage" class="com.bhge.project.pageObjects.YandexMarketPage">
+    </bean>
+
+    <bean id="netBookYandexMarketPage" class="com.bhge.project.pageObjects.NetBookYandexMarketPage">
+    </bean>
+
+</beans>
