@@ -8,11 +8,6 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class YandexStepDefinitions implements BHGEContext {
 
-    @Given("^user opens \"([^\"]*)\"$")
-    public void openSite(String url) {
-        open(url);
-    }
-
     @When("^user clicks on market button on yandex page$")
     public void clickCityButton() {
         yandexPage.clickMarketButton();

@@ -1,6 +1,6 @@
 package com.bhge.project.stepDefinitions.config;
 
-import com.bhge.project.pageObjects.NetBookYandexMarketPage;
+import com.bhge.project.pageObjects.LaptopSearchInYandexMarketPage;
 import com.bhge.project.pageObjects.YandexMarketPage;
 import com.bhge.project.pageObjects.YandexPage;
 import org.springframework.context.ApplicationContext;
@@ -15,5 +15,5 @@ public interface BHGEContext {
 
     YandexMarketPage yandexMarketPage = (YandexMarketPage) context.getBean("yandexMarketPage");
 
-    NetBookYandexMarketPage netBookYandexMarketPage = (NetBookYandexMarketPage) context.getBean("netBookYandexMarketPage");
+    LaptopSearchInYandexMarketPage laptopSearchInYandexMarketPage = (LaptopSearchInYandexMarketPage) context.getBean("laptopSearchInYandexMarketPage");
 }

@@ -11,7 +11,7 @@
     <bean id="yandexMarketPage" class="com.bhge.project.pageObjects.YandexMarketPage">
     </bean>
 
-    <bean id="netBookYandexMarketPage" class="com.bhge.project.pageObjects.NetBookYandexMarketPage">
+    <bean id="laptopSearchInYandexMarketPage" class="com.bhge.project.pageObjects.LaptopSearchInYandexMarketPage">
     </bean>
 
 </beans>

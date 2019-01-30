@@ -16,11 +16,11 @@ public class YandexMarketPage {
     }
 
     public void chooseCategory(String categoryName) {
-        SelenideElement mainYandexCategory = $$(".n-w-tab__control-caption").find(text("Бытовая техника"));
-        Selenide.actions().moveToElement(mainYandexCategory);
+        SelenideElement mainYandexCategory = $$(".n-w-tab__control-caption").find(text("Компьютерная техника"));
+        Selenide.actions().moveToElement(mainYandexCategory).perform();
 
-//        SelenideElement category = $(".n-w-navigation-menu__node-link-group .link.n-w-navigation-menu__node-link.b-zone.b-spy-events.i-bem.link_js_inited + [title=\"Ноутбуки\"]");
-//        category.click();
+        SelenideElement category = $(".n-w-tab__column.n-w-tab__column_type_navigation-menu .n-w-navigation-menu.b-zone.b-spy-visible.i-bem.b-spy-visible_js_inited.b-zone_js_inited [title=\"Ноутбуки\"]");
+        category.click();
     }
 
 }
