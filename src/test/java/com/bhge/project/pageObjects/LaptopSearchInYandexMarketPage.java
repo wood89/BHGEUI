@@ -47,7 +47,7 @@ public class LaptopSearchInYandexMarketPage {
         loadNetBooksArea.shouldBe(visible);
     }
 
-    public void checkDellNetBook() {
+    public void checkDellLaptop() {
         try {
             for(SelenideElement laptopTitle: $$(".n-snippet-card2__title")) {
                 String title = laptopTitle.text();
@@ -61,7 +61,7 @@ public class LaptopSearchInYandexMarketPage {
         }
     }
 
-    public void checkDisplayedInAscendingOrderNetBook() {
+    public void checkDisplayedInAscendingOrderLaptop() {
         try {
             int count = 0;
 

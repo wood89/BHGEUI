@@ -6,35 +6,35 @@ import cucumber.api.java.en.When;
 
 public class LaptopSearchInYandexMarketDefinitions implements BHGEContext{
 
-    @When("^user clicks on Dell generator on netBook market yandex page$")
+    @When("^user clicks on Dell generator on laptop market yandex page$")
     public void clickOnGeneratorButton() {
         laptopSearchInYandexMarketPage.clickOnDellGeneratorButton();
     }
 
-    @When("^user sets (\\d+) on minimum value in the filter by price on netBook market yandex page$")
+    @When("^user sets (\\d+) on minimum value in the filter by price on laptop market yandex page$")
     public void setMinimumValue(int value) {
         laptopSearchInYandexMarketPage.setMinimumValue(value);
     }
 
-    @When("^user sets (\\d+) on maximum value in the filter by price on netBook market yandex page$")
+    @When("^user sets (\\d+) on maximum value in the filter by price on laptop market yandex page$")
     public void setMaximumValue(int value) {
         laptopSearchInYandexMarketPage.setMaximumValue(value);
     }
 
-    @When("^user clicks 'по цене' sort button on netBook market yandex page$")
+    @When("^user clicks 'по цене' sort button on laptop market yandex page$")
     public void clickSortPrice() {
         laptopSearchInYandexMarketPage.clickSortPrice();
     }
 
 
-    @Then("^check if only Dell is listed on netBook market yandex page$")
-    public void checkDellNetBook() {
-        laptopSearchInYandexMarketPage.checkDellNetBook();
+    @Then("^check if only Dell is listed on laptop market yandex page$")
+    public void checkDellLaptop() {
+        laptopSearchInYandexMarketPage.checkDellLaptop();
     }
 
-    @Then("^results are displayed in ascending order on netBook market yandex page$")
-    public void checkDisplayedInAscendingOrderNetBook() {
-        laptopSearchInYandexMarketPage.checkDisplayedInAscendingOrderNetBook();
+    @Then("^results are displayed in ascending order on laptop market yandex page$")
+    public void checkDisplayedInAscendingOrderLaptop() {
+        laptopSearchInYandexMarketPage.checkDisplayedInAscendingOrderLaptop();
     }
 
 }
